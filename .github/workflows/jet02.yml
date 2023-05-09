@@ -40,7 +40,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=vlNnzf1tKFo)
+        $(yt-dlp --print urls https://www.youtube.com/@user-el1yv5or9d/live)
         EOL
       # 03信大電視台
     - name: Get 03.m3u8
