@@ -42,7 +42,7 @@
 
 22.能登鹿島駅周辺-石川県穴水町,https://raw.githubusercontent.com/sem3060/jet02/main/22.m3u8
 
-23.名古屋駅県羽咋市-千里浜,https://raw.githubusercontent.com/sem3060/jet02/main/23.m3u8
+23.浅草寺の境内（本堂側）,https://raw.githubusercontent.com/sem3060/jet02/main/23.m3u8
 
 24.名古屋駅,https://raw.githubusercontent.com/sem3060/jet02/main/24.m3u8
 
