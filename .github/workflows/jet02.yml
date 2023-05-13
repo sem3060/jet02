@@ -30,7 +30,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=Ma6op4TcVuE)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=9YFWzk0_Skk)
         EOL
         # 02誠心電視台
     - name: Get 02.m3u8
@@ -40,7 +40,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@user-el1yv5or9d/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=YwCjL7jFUGA)
         EOL
       # 03信大電視台
     - name: Get 03.m3u8
@@ -120,7 +120,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=Q7qRkmhVa6g)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=yyQPJYw9unI&t=133s)
         EOL
         # 11風景音樂3
     - name: Get 11.m3u8
@@ -252,7 +252,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=Uhx1Jhi1kNU)
         EOL
-        # 24名古屋駅
+        # 24浅草寺の境内（本堂側）
     - name: Get 24.m3u8
       run: |
         touch ./24.m3u8
@@ -260,7 +260,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=2gJfJW83hK8)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=nOk4cd0kkp8)
         EOL
         # 25大阪の夜景-OSAKA NIGHT,
     - name: Get 25.m3u8
