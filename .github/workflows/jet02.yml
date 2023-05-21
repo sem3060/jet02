@@ -30,7 +30,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=9YFWzk0_Skk)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=-bxYfxjzflc)
         EOL
         # 02誠心電視台
     - name: Get 02.m3u8
@@ -120,7 +120,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=yyQPJYw9unI&t=133s)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=iSgIBFBIeug&t=1375s)
         EOL
         # 11風景音樂3
     - name: Get 11.m3u8
@@ -210,7 +210,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=xzGhI0K8edM)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=jqo2K-1mkDc)
         EOL
         # 20中天新聞HD
     - name: Get 20.m3u8
