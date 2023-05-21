@@ -110,7 +110,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=mNxGejzhHvs)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=iSgIBFBIeug&t=1375s)
         EOL
         # 10風景音樂2
     - name: Get 10.m3u8
@@ -120,7 +120,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=iSgIBFBIeug&t=1375s)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=fl0rDnxT3nM)
         EOL
         # 11風景音樂3
     - name: Get 11.m3u8
@@ -190,7 +190,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=4Uc00FPs27M)
+        $(yt-dlp --print urls https://youtu.be/4Uc00FPs27M)
         EOL
         # 18公視台語台 HD
     - name: Get 18.m3u8
@@ -200,7 +200,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=6KlRR_DGhmI)
+        $(yt-dlp --print urls https://youtu.be/6KlRR_DGhmI)
         EOL
         # 19桐瑛虎尾電視台
     - name: Get 19.m3u8
