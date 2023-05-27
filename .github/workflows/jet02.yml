@@ -60,7 +60,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=oV_i3Hsl_zg)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=MIqUplvSRWA)
         EOL
        # 05大愛 2臺
     - name: Get 05.m3u8
@@ -70,7 +70,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=DTNkEm6jaqQ)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=OKvWtVoDR8I)
         EOL
         # 06萬秀豬王
     - name: Get 06.m3u8
@@ -250,7 +250,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=Uhx1Jhi1kNU)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=VcbE3iLfVIw)
         EOL
         # 24浅草寺の境内（本堂側）
     - name: Get 24.m3u8
