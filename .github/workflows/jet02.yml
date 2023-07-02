@@ -30,7 +30,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=GxtYhkvl_D8)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Z0SWvl1Jt18)
         EOL
         # 02誠心電視台
     - name: Get 02.m3u8
@@ -40,7 +40,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=YwCjL7jFUGA)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=IT3ROPSceKc)
         EOL
       # 03信大電視台
     - name: Get 03.m3u8
@@ -70,7 +70,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=OKvWtVoDR8I)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=DTNkEm6jaqQ)
         EOL
         # 06萬秀豬王
     - name: Get 06.m3u8
@@ -160,7 +160,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=wM0g8EoUZ_E)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=K2I89l2tDSs)
         EOL
        # 15台視新聞HD
     - name: Get 15.m3u8
